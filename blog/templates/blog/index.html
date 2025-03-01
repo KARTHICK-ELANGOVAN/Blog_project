@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-    {% if user.is_authenticated %}
+   
         <div class="container-fluid ">
             <div class="row">
                 <h2 >{{ blog_title |upper}}</h2>
@@ -103,13 +103,5 @@
             </div>
             
         </div>
-    {% else %}
-        <center><h3 style="text-align: center; color: grey; "> login to see the content</h3></center>
-        <h3>{{ blog_title}}</h3>
-        {% for all_post in all_posts %}
-            <div>{{ all_post }}</div>
-        {% endfor %}
-        
-        <br/><br/>
-    {% endif %}
+   
  {% endblock %} 

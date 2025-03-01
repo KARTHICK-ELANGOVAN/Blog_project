@@ -3,12 +3,13 @@
     <center>
         <h1>Edit Profile..</h1>
         <br/><br/>
-        <div class="form-group">
+        <div class="form-group  m-4 p-4 ">
             <form method="post" >
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button class="btn btn-secondary"> Update Profile</button>
                 
+                <button class="btn btn-secondary"> Update Profile</button>
+            </form>  
 
         </div>
     </center>

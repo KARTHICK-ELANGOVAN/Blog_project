@@ -13,18 +13,18 @@
     <header class="p-3 bg-dark text-white">
         <div class="row">
             <div class="col">
-                <a class ="text-light text-decoration-none" href="/"><h3>Blog</h3></a>
+               <h3> <a class ="text-light text-decoration-none " href="/"><img src="{% static 'images/blog.png' %}" height="30px" width="30px" class="logo ml-4" alt="logo">Blog Nest</a></h3>
             </div>
             <div class="col">
                 <div class="d-flex justify-content-center gap-3">
                     {% if user.is_authenticated %}
-                        <a class="text-light text-decoration-none" href="">Home</a>
+                        
                         <a class="text-light text-decoration-none" href="/about">About</a>
                         <a class="text-light text-decoration-none" href="/contact">Contact</a>
                         <a class="text-light text-decoration-none" href='{% url "members:dashboard"%}'>Dashboard</a>
-                        <a class="text-light text-decoration-none" href="/members/edit_profile/">edit_Profile</a>
+                        
                         <a class="text-light text-decoration-none" href="/members/logout" > logout </a>
-                        <small><p style ="color:white">User: {{user.username}}</p></small>  
+                        <p style ="color:white"><i class="fa-regular fa-user" style="color: #ffffff;"></i> {{user.username}}</p> 
                     {% else %}
                         <a class="text-light text-decoration-none" href='{% url "members:register" %}'>Register</a>
                         <a class="text-light text-decoration-none" href='{% url "members:login" %}'> login </a>
