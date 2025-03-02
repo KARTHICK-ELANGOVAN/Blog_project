@@ -1,4 +1,6 @@
-# E-Commerce Shop Cart Website
+# BLOG Website
+
+# TITLE - BLOG NEST
 
 ## Overview
 This is a **full-stack e-commerce website** built using **Django, MySQL, HTML, CSS, and JavaScript**. The project includes features for product browsing, user authentication, shopping cart management, and order processing. It is designed to provide a seamless online shopping experience with an intuitive UI/UX.
@@ -68,6 +70,8 @@ Visit **karthickelangovan.pythonanywhere.com** to view the application.
 ## Contribution
 Feel free to fork this repository and make improvements. Pull requests are welcome!
 
+##Creation
+   By KARTHICK E - Full stack python developer..
 ## Contact
 For any questions or collaboration, reach out to me on ** email me at **karthielangovan2003@gmail.com**.
 
