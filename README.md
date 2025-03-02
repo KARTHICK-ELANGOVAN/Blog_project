@@ -2,6 +2,7 @@
 
 # TITLE - BLOG NEST
 
+
 ## Overview
 This is a **full-stack e-commerce website** built using **Django, MySQL, HTML, CSS, and JavaScript**. The project includes features for product browsing, user authentication, shopping cart management, and order processing. It is designed to provide a seamless online shopping experience with an intuitive UI/UX.
 
@@ -14,7 +15,8 @@ This is a **full-stack e-commerce website** built using **Django, MySQL, HTML, C
             │── templates/         # HTML templates for rendering UI
             │── manage.py          # Django's project management file
             │── db.sqlite3         # SQLite database (can be switched to MySQL)
-            
+##Live link
+  **karthickelangovan.pythonanywhere.com** 
 
 ## Features
 ### **1. User Authentication**
@@ -59,7 +61,7 @@ python manage.py makemigrations
 ```bash
 python manage.py runserver
 ```
-Visit **karthickelangovan.pythonanywhere.com** to view the application.
+Visit **127.0.0.1** to view the application.
 
 ## Future Enhancements
 - Implement **AI-powered product recommendations**
