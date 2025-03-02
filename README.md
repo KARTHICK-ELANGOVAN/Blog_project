@@ -6,15 +6,15 @@
 This is a **full-stack e-commerce website** built using **Django, MySQL, HTML, CSS, and JavaScript**. The project includes features for product browsing, user authentication, shopping cart management, and order processing. It is designed to provide a seamless online shopping experience with an intuitive UI/UX.
 
 ##Project Structure
-
-myapp/                  # Main Django application
-│── blog/              # Blog app for adding and managing blog content
-│── members/           # Authentication app (login, registration, user management)
-│── static/            # Static files (CSS, JS, images)
-│── templates/         # HTML templates for rendering UI
-│── manage.py          # Django's project management file
-│── db.sqlite3         # SQLite database (can be switched to MySQL)
-
+            
+            myapp/                  # Main Django application
+            │── blog/              # Blog app for adding and managing blog content
+            │── members/           # Authentication app (login, registration, user management)
+            │── static/            # Static files (CSS, JS, images)
+            │── templates/         # HTML templates for rendering UI
+            │── manage.py          # Django's project management file
+            │── db.sqlite3         # SQLite database (can be switched to MySQL)
+            
 
 ## Features
 ### **1. User Authentication**
